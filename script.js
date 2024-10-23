@@ -24,19 +24,23 @@ var treeData = {
         {
           name: "03.01.01 Account Management",
           children: [
-            { name: "Servers" },
-            { name: "Workstations" },
-            { name: "Network Devices" },
-            { name: "End-User Devices" },
+            { 
+            name: "Servers",
+            name: "Workstations",
+            name: "Network Devices",
+            name: "End-User Devices",
+            }
           ],
         },
         {
           name: "03.01.02 Access Enforcement",
           children: [
-            { name: "Servers" },
-            { name: "Network Devices" },
-            { name: "Security Systems" },
-            { name: "Data Assets" },
+            { 
+                name: "Servers",
+            name: "Network Devices",
+             name: "Security Systems",
+             name: "Data Assets",
+            }
           ],
         },
         // Add similar structure for other sub-sub-controls
