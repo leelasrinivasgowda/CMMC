@@ -1,6 +1,6 @@
 // Set up the margins, width, and height for the tree layout
 var margin = { top: 20, right: 200, bottom: 20, left: 120 },
-    width = 960 - margin.right - margin.left,
+    width = 1000 - margin.right - margin.left,
     height = 800 - margin.top - margin.bottom;
 
 var i = 0,
