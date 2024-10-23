@@ -29,16 +29,7 @@ var treeData = {
                 {
                     name: "03.01.01 Account Management",
                     children: [
-                        { 
-                        name: "Servers" ,
-                        children:[
-                        {
-                            name:'Web Server',
-                        },
-                        {name : 'File Server'},
-                        {name: 'Application Server'}
-                        }
-                        ]
+                        { name: "Servers" },
                         { name: "Workstations" },
                         { name: "Network Devices" },
                         { name: "Cloud Infrastructure" },
