@@ -65,17 +65,8 @@ var treeData = {
                         { name: "End-User Devices" }
                     ]
                 },
-              
                 // Add remaining sub-controls for Access Control
             ]
-        },
-          {
-            name: "Test Server"
-            children: [
-                    { name: "Web Servers" },
-                    { name: "Data Base Server" },
-                    { name: "File Server" }  
-         ]
         },
         {
             name: "3.2 Awareness and Training",
