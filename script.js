@@ -24,7 +24,7 @@ var treeData = {
         name: "03.01.01 Account Management",
          children: [
         { name: "03.01.01 Server" 
-        }]
+        }],
         },
         { name: "03.01.02 Access Enforcement" },
         { name: "03.01.03 Information Flow Enforcement" },
