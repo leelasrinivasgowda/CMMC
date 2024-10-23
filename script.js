@@ -1,6 +1,6 @@
 // Set up the margins, width, and height for the tree layout
 var margin = { top: 20, right: 120, bottom: 20, left: 120 },
-    width = 960 - margin.right - margin.left,
+    width = 1500 - margin.right - margin.left,
     height = 800 - margin.top - margin.bottom;
 
 var i = 0,
@@ -345,7 +345,7 @@ function update(source) {
     var nodes = tree.nodes(root).reverse(),
         links = tree.links(nodes);
 
-    nodes.forEach(function (d) { d.y = d.depth * 260; });
+    nodes.forEach(function (d) { d.y = d.depth * 300; });
 
     var node = svg.selectAll("g.node")
         .data(nodes, function (d) { return d.id || (d.id = ++i); });
