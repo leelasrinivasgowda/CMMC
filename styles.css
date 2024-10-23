@@ -24,3 +24,6 @@
     stroke: #999;
     stroke-width: 2px;
 }
+#tree-container svg path {
+    opacity: 0.4;
+}
