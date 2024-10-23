@@ -120,7 +120,27 @@ var treeData = {
                         { name: "Cloud Infrastructure" },
                     ]
                 },
-                // Add more as per your needs...
+                {
+                    name: "03.01.18 Access Control for Mobile Devices",
+                    children: [
+                        { name: "Mobile Devices" },
+                        { name: "End-User Devices" },
+                    ]
+                },
+                {
+                    name: "03.01.20 Use of External Systems",
+                    children: [
+                        { name: "External Systems" },
+                        { name: "Cloud Infrastructure" },
+                    ]
+                },
+                {
+                    name: "03.01.22 Publicly Accessible Content",
+                    children: [
+                        { name: "Public Servers" },
+                        { name: "Web Services" },
+                    ]
+                },
             ]
         },
         {
@@ -143,10 +163,181 @@ var treeData = {
                         { name: "Security Systems" },
                     ]
                 },
-                // Add more as per your needs...
             ]
         },
-        // Continue for all controls and sub-controls
+        {
+            name: "3.3 Audit and Accountability",
+            children: [
+                {
+                    name: "03.03.01 Event Logging",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "Network Devices" },
+                        { name: "Security Systems" },
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Record Content",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "Network Devices" },
+                    ]
+                },
+                {
+                    name: "03.03.03 Audit Record Generation",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Security Systems" },
+                        { name: "Cloud Infrastructure" },
+                    ]
+                },
+                {
+                    name: "03.03.05 Audit Record Review, Analysis, and Reporting",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "Security Systems" },
+                    ]
+                },
+            ]
+        },
+        {
+            name: "3.4 Configuration Management",
+            children: [
+                {
+                    name: "03.04.01 Baseline Configuration",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Network Devices" },
+                        { name: "Workstations" },
+                    ]
+                },
+                {
+                    name: "03.04.02 Configuration Settings",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "Storage Devices" },
+                    ]
+                },
+                {
+                    name: "03.04.03 Configuration Change Control",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                    ]
+                },
+                {
+                    name: "03.04.05 Access Restrictions for Change",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Network Devices" },
+                    ]
+                },
+            ]
+        },
+        {
+            name: "3.5 Identification and Authentication",
+            children: [
+                {
+                    name: "03.05.01 User Identification and Authentication",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "End-User Devices" },
+                    ]
+                },
+                {
+                    name: "03.05.02 Device Identification and Authentication",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Network Devices" },
+                        { name: "End-User Devices" },
+                    ]
+                },
+                {
+                    name: "03.05.03 Multi-Factor Authentication",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                    ]
+                },
+            ]
+        },
+        {
+            name: "3.6 Incident Response",
+            children: [
+                {
+                    name: "03.06.01 Incident Handling",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Network Devices" },
+                    ]
+                },
+                {
+                    name: "03.06.02 Incident Monitoring, Reporting, and Response Assistance",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                    ]
+                },
+                {
+                    name: "03.06.03 Incident Response Testing",
+                    children: [
+                        { name: "Servers" },
+                        { name: "Security Systems" },
+                    ]
+                },
+            ]
+        },
+        {
+            name: "3.7 Maintenance",
+            children: [
+                {
+                    name: "03.07.04 Maintenance Tools",
+                    children: [
+                        { name: "Maintenance Tools" },
+                        { name: "Servers" },
+                    ]
+                },
+                {
+                    name: "03.07.05 Nonlocal Maintenance",
+                    children: [
+                        { name: "Nonlocal Tools" },
+                        { name: "Cloud Infrastructure" },
+                    ]
+                },
+            ]
+        },
+        {
+            name: "3.8 Media Protection",
+            children: [
+                {
+                    name: "03.08.01 Media Storage",
+                    children: [
+                        { name: "Storage Devices" },
+                    ]
+                },
+                {
+                    name: "03.08.02 Media Transport",
+                    children: [
+                        { name: "Physical Media" },
+                        { name: "Storage Devices" },
+                    ]
+                },
+                {
+                    name: "03.08.03 Media Sanitization",
+                    children: [
+                        { name: "Storage Devices" },
+                    ]
+                },
+            ]
+        },
+        // Add other controls as necessary for the full framework...
     ]
 };
 
